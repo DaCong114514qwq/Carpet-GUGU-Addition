@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "${id}",
+  "version": "${version}",
+
+  "name": "${name}",
+  "description": "Template for my fabric mods",
+  "authors": [
+    "Bot_Cong"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com",
+    "sources": "https://github.com/Fallen-Breath/fabric-mod-template"
+  },
+
+  "icon": "assets/carpet_gugu_addition/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "gugu.cong.carpet_gugu_addition.GUGUServerMod"
+    ]
+  },
+  "mixins": [
+    "carpet_gugu_addition.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.4",
+    "minecraft": "${minecraft_dependency}"
+  }
+}

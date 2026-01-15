@@ -1,0 +1,14 @@
+{
+  "carpet.rule.reIntroduceSkeletonLooting.name": "重新引入骷髅掠夺",
+  "carpet.rule.reIntroduceSkeletonLooting.desc": "让1.21.4+的骷髅可以像之前那样拿起武器（仅在1.21.4+生效）",
+  "carpet.rule.softAnvil.name": "软化铁砧",
+  "carpet.rule.softAnvil.desc": "让铁砧变得和泥土一样硬",
+  "carpet.rule.softTrialSpawner.name": "软化试炼刷怪笼",
+  "carpet.rule.softTrialSpawner.desc": "让试炼刷怪笼变得和泥土一样硬",
+  "carpet.rule.softVault.name": "软化宝库",
+  "carpet.rule.softVault.desc": "让宝库变得和石头一样硬",
+  "carpet.rule.softReinforcedDeepslate.name": "软化强化深板岩",
+  "carpet.rule.softReinforcedDeepslate.desc": "让强化深板岩变得和泥土一样硬",
+  "carpet.rule.updateSuppressionCrashFix.name": "阻止更新抑制崩溃",
+  "carpet.rule.updateSuppressionCrashFix.desc": "移植自update-depression的功能，尽可能地阻止更新抑制造成的游戏崩溃"
+}
