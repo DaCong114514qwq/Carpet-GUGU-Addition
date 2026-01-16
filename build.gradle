@@ -1,6 +1,6 @@
 plugins {
 	id 'maven-publish'
-	id 'com.github.hierynomus.license' version '0.16.1' apply false
+	//id 'com.github.hierynomus.license' version '0.16.1' apply false
 	id 'net.fabricmc.fabric-loom' version '1.14-SNAPSHOT' apply false
 	id 'net.fabricmc.fabric-loom-remap' version '1.14-SNAPSHOT' apply false
 
