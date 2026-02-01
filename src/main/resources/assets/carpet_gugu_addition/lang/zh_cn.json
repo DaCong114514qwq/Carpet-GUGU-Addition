@@ -10,5 +10,7 @@
   "carpet.rule.softReinforcedDeepslate.name": "软化强化深板岩",
   "carpet.rule.softReinforcedDeepslate.desc": "让强化深板岩变得和泥土一样硬",
   "carpet.rule.updateSuppressionCrashFix.name": "阻止更新抑制崩溃",
-  "carpet.rule.updateSuppressionCrashFix.desc": "移植自update-depression的功能，尽可能地阻止更新抑制造成的游戏崩溃"
+  "carpet.rule.updateSuppressionCrashFix.desc": "移植自update-depression的功能，尽可能地阻止更新抑制造成的游戏崩溃",
+  "carpet.rule.autoMending.name": "自动经验修补",
+  "carpet.rule.autoMending.desc": "装备或手上有耐久不满物品且有经验修补附魔时会自动消耗已有经验值进行经验修补（移植自Carpet WuHu Addition）"
 }

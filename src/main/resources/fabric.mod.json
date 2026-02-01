@@ -4,13 +4,13 @@
   "version": "${version}",
 
   "name": "${name}",
-  "description": "Template for my fabric mods",
+  "description": "GuGuCraft Server's Carpet Addition",
   "authors": [
     "Bot_Cong"
   ],
   "contact": {
-    "homepage": "https://modrinth.com",
-    "sources": "https://github.com/Fallen-Breath/fabric-mod-template"
+    "homepage": "https://modrinth.com/mod/carpet-gugu-addition",
+    "sources": "https://github.com/DaCong114514qwq/Carpet-GUGU-Addition"
   },
 
   "icon": "assets/carpet_gugu_addition/icon.png",

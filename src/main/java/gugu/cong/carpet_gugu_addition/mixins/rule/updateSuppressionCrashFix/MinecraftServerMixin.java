@@ -20,7 +20,6 @@ public abstract class MinecraftServerMixin {
     @Shadow @Final private static Logger LOGGER;
     @Shadow private PlayerList playerList;
 
-
     @WrapOperation(method = "tickChildren", at = @At(value = "INVOKE", target = "Lnet/minecraft/server/level/ServerLevel;tick(Ljava/util/function/BooleanSupplier;)V"))
     private void addTryCatchLevel(ServerLevel level, BooleanSupplier shouldKeepTicking, Operation<Void> original) {
         if (GUGUSettings.updateSuppressionCrashFix) {

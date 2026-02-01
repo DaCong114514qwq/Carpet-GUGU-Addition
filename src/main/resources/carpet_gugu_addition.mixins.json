@@ -6,7 +6,8 @@
   "mixins": [
     "rule.reIntroduceSkeletonLooting.AbstractSkeletonMixin",
     "rule.BlockStateBaseMixin",
-    "rule.updateSuppressionCrashFix.MinecraftServerMixin"
+    "rule.updateSuppressionCrashFix.MinecraftServerMixin",
+    "rule.autoMending.ServerPlayerMixin"
   ],
   "client": [
   ],

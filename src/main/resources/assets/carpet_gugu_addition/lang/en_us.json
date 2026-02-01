@@ -1,14 +1,16 @@
 {
   "carpet.rule.reIntroduceSkeletonLooting.name": "Re-add Skeleton Looting",
-  "carpet.rule.reIntroduceSkeletonLooting.desc": "Re-add Skeleton Looting",
+  "carpet.rule.reIntroduceSkeletonLooting.desc": "Re-add Skeleton Looting.(1.21.4+)",
   "carpet.rule.softAnvil.name": "Soft Anvil",
-  "carpet.rule.softAnvil.desc": "Anvil == Dirt",
+  "carpet.rule.softAnvil.desc": "Anvil == Dirt.",
   "carpet.rule.softTrialSpawner.name": "Soft TrialSpawner",
-  "carpet.rule.softTrialSpawner.desc": "Trial Spawner == Dirt",
-  "carpet.rule.softVault.name": "SoftVault",
-  "carpet.rule.softVault.desc": "Vault == Stone",
+  "carpet.rule.softTrialSpawner.desc": "Trial Spawner == Dirt.",
+  "carpet.rule.softVault.name": "Soft Vault",
+  "carpet.rule.softVault.desc": "Vault == Stone.",
   "carpet.rule.softReinforcedDeepslate.name": "Soft Reinforced Deepslate",
-  "carpet.rule.softReinforcedDeepslate.desc": "Reinforced Deepslate == Dirt",
+  "carpet.rule.softReinforcedDeepslate.desc": "Reinforced Deepslate == Dirt.",
   "carpet.rule.updateSuppressionCrashFix.name": "UpdateSuppressionCrashFix",
-  "carpet.rule.updateSuppressionCrashFix.desc": "Crash? No way!!!(update-depression)"
+  "carpet.rule.updateSuppressionCrashFix.desc": "Crash? No way!!!(update-depression).",
+  "carpet.rule.autoMending.name": "Auto Mending",
+  "carpet.rule.autoMending.desc": "Mending, I love you."
 }

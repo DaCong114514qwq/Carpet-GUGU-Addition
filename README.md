@@ -2,6 +2,7 @@
 # 新人的第一个开源fabric mod
 
 [![License](https://img.shields.io/github/license/DaCong114514qwq/Carpet-GUGU-Addition)](https://choosealicense.com/licenses/mit/)
+[![Github](https://img.shields.io/github/downloads/DaCong114514qwq/Carpet-GUGU-Addition/total?color=161616&label=Github%20downloads&logo=github)](https://github.com/DaCong114514qwq/Carpet-GUGU-Addition/releases)
 
 ## 依赖
 

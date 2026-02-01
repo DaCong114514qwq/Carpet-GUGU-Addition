@@ -26,4 +26,7 @@ public class GUGUSettings {
 
     @Rule(categories = {GUGU, SURVIVAL})
     public static boolean updateSuppressionCrashFix = false;
+
+    @Rule(categories = {GUGU, SURVIVAL})
+    public static boolean autoMending = false;
 }
