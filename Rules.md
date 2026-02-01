@@ -47,9 +47,9 @@
 - 参考选项: `false`, `true`
 - 分类: `GUGU`, `SURVIVAL`
 
-## 阻止更新抑制崩溃 (updateSuppressionCrashFix)
+## 自动经验修补 (autoMending)
 
-移植自update-depression的功能，尽可能地阻止更新抑制造成的游戏崩溃。
+装备或手上有耐久不满物品且有经验修补附魔时会自动消耗已有经验值进行经验修补（移植自Carpet WuHu Addition）
 
 - 类型: `boolean`
 - 默认值: `false`
