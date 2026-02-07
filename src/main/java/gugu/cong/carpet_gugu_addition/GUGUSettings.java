@@ -29,4 +29,7 @@ public class GUGUSettings {
 
     @Rule(categories = {GUGU, SURVIVAL})
     public static boolean autoMending = false;
+
+    @Rule(categories = {GUGU, SURVIVAL})
+    public static boolean openCarpetPermissionServer = false;
 }

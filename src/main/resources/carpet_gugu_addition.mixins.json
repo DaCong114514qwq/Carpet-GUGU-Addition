@@ -7,7 +7,8 @@
     "rule.reIntroduceSkeletonLooting.AbstractSkeletonMixin",
     "rule.BlockStateBaseMixin",
     "rule.updateSuppressionCrashFix.MinecraftServerMixin",
-    "rule.autoMending.ServerPlayerMixin"
+    "rule.autoMending.ServerPlayerMixin",
+    "rule.openCarpetPermissionServer.SettingsManagerMixin"
   ],
   "client": [
   ],

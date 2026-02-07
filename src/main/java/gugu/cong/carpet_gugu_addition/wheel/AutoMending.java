@@ -12,7 +12,7 @@ import static gugu.cong.carpet_gugu_addition.GUGUSettings.autoMending;
 
 public class AutoMending {
     public static void mending(ServerPlayer player){
-        if (!autoMending) return;
+        if (autoMending) {
         int exp = (int) Math.floor(player.experienceProgress * (float)player.getXpNeededForNextLevel());
         int amount = exp == 0 ? player.experienceLevel > 0 ? 1 : 0 : exp;
         if(amount == 0) return;
@@ -24,6 +24,7 @@ public class AutoMending {
             itemStack.setDamageValue(itemStack.getDamageValue() - j);
             if (j > 0) {
                 player.giveExperiencePoints(-j);
+                }
             }
         }
     }
