@@ -11,8 +11,10 @@
   "carpet.rule.softReinforcedDeepslate.desc": "Reinforced Deepslate == Dirt.",
   "carpet.rule.updateSuppressionCrashFix.name": "UpdateSuppressionCrashFix",
   "carpet.rule.updateSuppressionCrashFix.desc": "Crash? No way!!!(update-depression).",
-  "carpet.rule.autoMending.name": "Auto Mending",
-  "carpet.rule.autoMending.desc": "Mending, I love you.",
+  "carpet.rule.autoMending_new.name": "Auto Mending",
+  "carpet.rule.autoMending_new.desc": "Mending, I love you.(Carpet WuHu Addition)",
   "carpet.rule.openCarpetPermissionServer.name": "open Carpet Permission Server",
-  "carpet.rule.openCarpetPermissionServer.desc": "Server Carpet Command OP? No!"
+  "carpet.rule.openCarpetPermissionServer.desc": "Server Carpet Command OP? No!",
+  "carpet.rule.remoteOpenInventory_new.name": "remoteOpenInventory",
+  "carpet.rule.remoteOpenInventory_new.desc": "remoteOpenInventory(Carpet WuHu Addition)."
 }

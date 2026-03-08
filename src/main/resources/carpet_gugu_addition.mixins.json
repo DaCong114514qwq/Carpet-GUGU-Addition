@@ -7,8 +7,14 @@
     "rule.reIntroduceSkeletonLooting.AbstractSkeletonMixin",
     "rule.BlockStateBaseMixin",
     "rule.updateSuppressionCrashFix.MinecraftServerMixin",
-    "rule.autoMending.ServerPlayerMixin",
-    "rule.openCarpetPermissionServer.SettingsManagerMixin"
+    "rule.autoMending_new.ServerPlayerMixin",
+    "rule.openCarpetPermissionServer.SettingsManagerMixin",
+    "rule.remoteOpenInventory_new.AbstractFurnaceBlockEntityMixin",
+    "rule.remoteOpenInventory_new.ChestMenuMixin",
+    "rule.remoteOpenInventory_new.ContainerMixin",
+    "rule.remoteOpenInventory_new.PlayerListMixin",
+    "rule.remoteOpenInventory_new.ServerLevelMixin",
+    "rule.remoteOpenInventory_new.ServerPlayerMixin"
   ],
   "client": [
   ],

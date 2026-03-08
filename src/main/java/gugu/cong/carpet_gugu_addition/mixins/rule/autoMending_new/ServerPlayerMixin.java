@@ -1,4 +1,4 @@
-package gugu.cong.carpet_gugu_addition.mixins.rule.autoMending;
+package gugu.cong.carpet_gugu_addition.mixins.rule.autoMending_new;
 
 import gugu.cong.carpet_gugu_addition.GUGUSettings;
 import net.minecraft.server.level.ServerPlayer;
@@ -13,7 +13,7 @@ import static gugu.cong.carpet_gugu_addition.wheel.AutoMending.mending;
 public class ServerPlayerMixin {
     @Inject(at = @At("TAIL"),method = "tick")
     public void tick(CallbackInfo ci){
-        if (GUGUSettings.autoMending) {
+        if (GUGUSettings.autoMending_new) {
             if (((ServerPlayer) (Object) this).level().getGameTime() % 20 == 0) {
                 mending((ServerPlayer) (Object) this);
             }

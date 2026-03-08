@@ -1,9 +1,12 @@
 package gugu.cong.carpet_gugu_addition;
 
+import gugu.cong.carpet_gugu_addition.wheel.OpenInventoryPacket;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.loader.api.FabricLoader;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+
+import static gugu.cong.carpet_gugu_addition.utils.remoteOpenInventoryUtils.loadPrinter;
 
 public class GUGUServerMod implements ModInitializer
 {
@@ -18,6 +21,10 @@ public class GUGUServerMod implements ModInitializer
 	{
 		MOD_VERSION = FabricLoader.getInstance().getModContainer(MOD_ID).orElseThrow(RuntimeException::new).getMetadata().getVersion().getFriendlyString();
 		GUGUServer.init();
+		if (!loadPrinter){
+			OpenInventoryPacket.init();
+			OpenInventoryPacket.registerReceivePacket();
+		}
 	}
 
 	public static String getModId() {
