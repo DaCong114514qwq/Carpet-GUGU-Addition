@@ -10,14 +10,18 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 import org.spongepowered.asm.mixin.injection.callback.LocalCapture;
 
+import static gugu.cong.carpet_gugu_addition.GUGUSettings.remoteOpenInventory_new;
+
 @Mixin(ChestMenu.class)
 public class ChestMenuMixin {
     @Inject(at = @At("HEAD"), method = "removed",cancellable = true,locals = LocalCapture.CAPTURE_FAILHARD)
     public void onClosed(Player player, CallbackInfo ci) {
-        if(!(player instanceof ServerPlayer)) return;
-        for (ServerPlayer player1 : OpenInventoryPacket.playerlist) {
-            if (player.equals(player1)) {
-                ci.cancel();
+        if(remoteOpenInventory_new) {
+            if (!(player instanceof ServerPlayer)) return;
+            for (ServerPlayer player1 : OpenInventoryPacket.playerlist) {
+                if (player.equals(player1)) {
+                    ci.cancel();
+                }
             }
         }
     }

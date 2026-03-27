@@ -2,8 +2,11 @@ package gugu.cong.carpet_gugu_addition.wheel;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Map;
+import java.util.Set;
+import java.util.concurrent.ConcurrentHashMap;
 
-import gugu.cong.carpet_gugu_addition.inventory.MyPacket;
+import gugu.cong.carpet_gugu_addition.inventory.ZxyPacket;
 import gugu.cong.carpet_gugu_addition.utils.remoteOpenInventoryUtils;
 import io.netty.buffer.Unpooled;
 import net.fabricmc.fabric.api.networking.v1.PayloadTypeRegistry;
@@ -48,12 +51,12 @@ public class OpenInventoryPacket {
     /*private static final TicketType<ChunkPos> OPEN_TICKET = TicketType.create("openInv", Comparator.comparingLong(ChunkPos::toLong), 2);*/
     //?}
 
-    public static HashMap<ServerPlayer, TickList> tickMap = new HashMap<>();
+    public static final Map<ServerPlayer, TickList> tickMap = new ConcurrentHashMap<>();
 
     private static final Identifier OPEN_INVENTORY = remoteOpenInventoryUtils.of("remoteinventory", "open_inventory");
     private static final Identifier OPEN_RETURN = remoteOpenInventoryUtils.of("openreturn", "open_return");
     private static final Identifier HELLO_REMOTE_INTERACTIONS = remoteOpenInventoryUtils.of("hello", "hello_remote_interactions");
-    public static ArrayList<ServerPlayer> playerlist = new ArrayList<>();
+    public static final Set<ServerPlayer> playerlist = ConcurrentHashMap.newKeySet();
 
     public static class OpenPackage implements CustomPacketPayload {
         public static final Type<OpenPackage> OPEN_INVENTORY_ID = new Type<>(OPEN_INVENTORY);
@@ -187,7 +190,7 @@ public class OpenInventoryPacket {
     public static void openReturn(ServerPlayer player, BlockState state, boolean open) {
         if (loadPrinter || loadCarpetWuhu) return;
         FriendlyByteBuf buf = new FriendlyByteBuf(Unpooled.buffer());
-        MyPacket.encode(new MyPacket(state, open), buf);
+        ZxyPacket.encode(new ZxyPacket(state, open), buf);
         ReturnPackage returnPackage = new ReturnPackage();
         returnPackage.state = state;
         returnPackage.isOpen = open;

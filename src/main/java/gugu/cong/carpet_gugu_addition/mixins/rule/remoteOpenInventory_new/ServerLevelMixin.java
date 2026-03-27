@@ -11,6 +11,7 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
+import static gugu.cong.carpet_gugu_addition.GUGUSettings.remoteOpenInventory_new;
 import static gugu.cong.carpet_gugu_addition.wheel.OpenInventoryPacket.playerlist;
 import static gugu.cong.carpet_gugu_addition.wheel.OpenInventoryPacket.tickMap;
 
@@ -18,14 +19,16 @@ import static gugu.cong.carpet_gugu_addition.wheel.OpenInventoryPacket.tickMap;
 public class ServerLevelMixin {
     @Inject(at = @At("HEAD"),method = "tick")
     public void tick(CallbackInfo ci){
-        for (ServerPlayer s : playerlist) {
-            TickList list = tickMap.get(s);
-            if (!list.world.areEntitiesLoaded(ChunkPos.asLong(list.pos))) {
-                list.world.shouldTickBlocksAt(list.pos);
-            }
-            BlockState state2 = list.world.getBlockState(list.pos);
-            if(state2.isAir()){
-                OpenInventoryPacket.openReturn(s,state2,false);
+        if(remoteOpenInventory_new) {
+            for (ServerPlayer s : playerlist) {
+                TickList list = tickMap.get(s);
+                if (!list.world.areEntitiesLoaded(ChunkPos.asLong(list.pos))) {
+                    list.world.shouldTickBlocksAt(list.pos);
+                }
+                BlockState state2 = list.world.getBlockState(list.pos);
+                if (state2.isAir()) {
+                    OpenInventoryPacket.openReturn(s, state2, false);
+                }
             }
         }
     }

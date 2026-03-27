@@ -11,9 +11,9 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 @Mixin(SettingsManager.class)
 public class SettingsManagerMixin {
     //? if <=1.21.11 {
-    /*@Inject(method = "lambda$registerCommand$11", at = @At("HEAD"), cancellable = true)*/
+    @Inject(method = "lambda$registerCommand$11", at = @At("HEAD"), cancellable = true)
     //?} else {
-    @Inject(method = "lambda$registerCommand$0", at = @At("HEAD"), cancellable = true)
+    /*@Inject(method = "lambda$registerCommand$1", at = @At("HEAD"), cancellable = true)*/
     //?}
     private void carpet(CommandSourceStack player, CallbackInfoReturnable<Boolean> cir) {
         if(GUGUSettings.openCarpetPermissionServer) {

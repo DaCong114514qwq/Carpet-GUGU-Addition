@@ -11,6 +11,8 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
+import static gugu.cong.carpet_gugu_addition.GUGUSettings.remoteOpenInventory_new;
+
 @Mixin(Container.class)
 public interface ContainerMixin {
     @Inject(
@@ -21,10 +23,12 @@ public interface ContainerMixin {
     private static void canPlayeruse(BlockEntity blockEntity,
                                      Player player,
                                      CallbackInfoReturnable<Boolean> cir) {
-        if (player instanceof ServerPlayer) {
-            for (ServerPlayer serverPlayer : OpenInventoryPacket.playerlist) {
-                if (serverPlayer.equals(player)) {
-                    cir.setReturnValue(true);
+        if(remoteOpenInventory_new) {
+            if (player instanceof ServerPlayer) {
+                for (ServerPlayer serverPlayer : OpenInventoryPacket.playerlist) {
+                    if (serverPlayer.equals(player)) {
+                        cir.setReturnValue(true);
+                    }
                 }
             }
         }

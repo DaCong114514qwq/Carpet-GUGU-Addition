@@ -9,7 +9,6 @@
     "rule.updateSuppressionCrashFix.MinecraftServerMixin",
     "rule.autoMending_new.ServerPlayerMixin",
     "rule.openCarpetPermissionServer.SettingsManagerMixin",
-    "rule.remoteOpenInventory_new.AbstractFurnaceBlockEntityMixin",
     "rule.remoteOpenInventory_new.ChestMenuMixin",
     "rule.remoteOpenInventory_new.ContainerMixin",
     "rule.remoteOpenInventory_new.PlayerListMixin",

@@ -13,10 +13,10 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
 import static gugu.cong.carpet_gugu_addition.wheel.OpenInventoryPacket.playerlist;
-import static gugu.cong.carpet_gugu_addition.wheel.OpenInventoryPacket.tickMap;
 
 @Mixin(ServerPlayer.class)
 public abstract class ServerPlayerMixin {
+
     @Inject(at = @At("HEAD"), method = "disconnect")
     public void onDisconnect(CallbackInfo ci) {
         deletePlayerList();
@@ -26,33 +26,24 @@ public abstract class ServerPlayerMixin {
     public void onHandledScreenClosed(CallbackInfo ci) {
         deletePlayerList();
     }
+
     @Unique
-    private void deletePlayerList(){
-        playerlist.removeIf(player -> player.getUUID().equals( ((ServerPlayer)(Object)this).getUUID()));
-        tickMap.entrySet().removeIf(k -> k.getKey().getUUID().equals(((ServerPlayer)(Object)this).getUUID()));
+    private void deletePlayerList() {
+        ServerPlayer self = (ServerPlayer) (Object) this;
+        playerlist.remove(self);
+        OpenInventoryPacket.tickMap.remove(self);
     }
-    @WrapOperation(at = @At(value = "INVOKE", target = "Lnet/minecraft/world/inventory/AbstractContainerMenu;stillValid(Lnet/minecraft/world/entity/player/Player;)Z"),method = "tick")
-    public boolean onTick(AbstractContainerMenu instance, Player playerEntity, Operation<Boolean> original){
-        if (playerEntity instanceof ServerPlayer) {
-            for (ServerPlayer serverPlayerEntity : playerlist) {
-                if (serverPlayerEntity.equals(playerEntity)) return true;
-            }
-        }
-        return instance.stillValid(playerEntity);
-    }
+
     @WrapOperation(
-            at = @At(
-                    value = "INVOKE",
-                    target = "Lnet/minecraft/world/inventory/AbstractContainerMenu;stillValid(Lnet/minecraft/world/entity/player/Player;)Z"
-            ),
+            at = @At(value = "INVOKE", target = "Lnet/minecraft/world/inventory/AbstractContainerMenu;stillValid(Lnet/minecraft/world/entity/player/Player;)Z"),
             method = "tick"
     )
     public boolean tick$stillValid(AbstractContainerMenu instance, Player player, Operation<Boolean> original) {
-        if (player instanceof ServerPlayer) {
-            for (ServerPlayer serverPlayer : OpenInventoryPacket.playerlist) {
-                if (serverPlayer.equals(player)) return true;
+        if (player instanceof ServerPlayer serverPlayer) {
+            if (playerlist.contains(serverPlayer)) {
+                return true;
             }
         }
-        return instance.stillValid(player);
+        return original.call(instance, player);
     }
 }
