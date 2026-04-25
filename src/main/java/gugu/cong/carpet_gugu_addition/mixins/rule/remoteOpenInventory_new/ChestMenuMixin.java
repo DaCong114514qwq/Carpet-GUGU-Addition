@@ -19,7 +19,7 @@ public class ChestMenuMixin {
             if (!(player instanceof ServerPlayer)) return;
             for (ServerPlayer player1 : OpenInventoryPacket.playerlist) {
                 if (player.equals(player1)) {
-                    ci.cancel();
+                    return;
                 }
             }
         }
