@@ -1,4 +1,4 @@
-package gugu.cong.carpet_gugu_addition.wheel;
+package gugu.cong.carpet_gugu_addition.utils;
 
 import gugu.cong.carpet_gugu_addition.GUGUSettings;
 import net.minecraft.core.BlockPos;

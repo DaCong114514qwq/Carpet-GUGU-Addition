@@ -1,6 +1,6 @@
 package gugu.cong.carpet_gugu_addition;
 
-import gugu.cong.carpet_gugu_addition.wheel.OpenInventoryPacket;
+import gugu.cong.carpet_gugu_addition.utils.OpenInventoryPacket;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.loader.api.FabricLoader;
 import org.apache.logging.log4j.LogManager;

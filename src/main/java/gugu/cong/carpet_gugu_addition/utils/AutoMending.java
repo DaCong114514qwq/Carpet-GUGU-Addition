@@ -1,4 +1,4 @@
-package gugu.cong.carpet_gugu_addition.wheel;
+package gugu.cong.carpet_gugu_addition.utils;
 
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.item.ItemStack;

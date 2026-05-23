@@ -36,4 +36,7 @@ public class GUGUSettings {
 
     @Rule(categories = {GUGU, SURVIVAL})
     public static boolean remoteOpenInventory_new = false;
+    
+    @Rule(categories = {GUGU})
+    public static boolean accurateBlockPlacement = false;
 }

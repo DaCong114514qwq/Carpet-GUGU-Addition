@@ -1,12 +1,11 @@
-package gugu.cong.carpet_gugu_addition.wheel;
+package gugu.cong.carpet_gugu_addition.utils;
 
 
 
 import java.util.ArrayList;
 import java.util.HashMap;
 
-import gugu.cong.carpet_gugu_addition.inventory.MyPacket;
-import gugu.cong.carpet_gugu_addition.utils.remoteOpenInventoryUtils;
+import gugu.cong.carpet_gugu_addition.inventory.ZxyPacket;
 import io.netty.buffer.Unpooled;
 import net.fabricmc.fabric.api.networking.v1.PayloadTypeRegistry;
 import net.fabricmc.fabric.api.networking.v1.ServerPlayNetworking;
@@ -191,7 +190,7 @@ public class OpenInventoryPacket {
     public static void openReturn(ServerPlayer player, BlockState state, boolean open) {
         if (loadCarpetWuhu) return;
         FriendlyByteBuf buf = new FriendlyByteBuf(Unpooled.buffer());
-        MyPacket.encode(new MyPacket(state, open), buf);
+        ZxyPacket.encode(new ZxyPacket(state, open), buf);
         //#if MC > 12004
         ReturnPackage returnPackage = new ReturnPackage();
         returnPackage.state = state;

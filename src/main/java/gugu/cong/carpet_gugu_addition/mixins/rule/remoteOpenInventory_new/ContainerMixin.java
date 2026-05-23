@@ -2,7 +2,7 @@ package gugu.cong.carpet_gugu_addition.mixins.rule.remoteOpenInventory_new;
 
 
 import gugu.cong.carpet_gugu_addition.GUGUSettings;
-import gugu.cong.carpet_gugu_addition.wheel.OpenInventoryPacket;
+import gugu.cong.carpet_gugu_addition.utils.OpenInventoryPacket;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.Container;
 import net.minecraft.world.entity.player.Player;

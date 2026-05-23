@@ -16,5 +16,7 @@
   "carpet.rule.openCarpetPermissionServer.name": "无OP开放Carpet指令权限（服务器版）",
   "carpet.rule.openCarpetPermissionServer.desc": "允许非OP玩家使用Carpet指令，可以在服务器使用",
   "carpet.rule.remoteOpenInventory_new.name": "远程交互容器",
-  "carpet.rule.remoteOpenInventory_new.desc": "远程交互容器（移植自Carpet WuHu Addition）（注：如果安装Carpet Wuhu Addition此功能将无效，请开启Carpet Wuhu Addition的远程交互容器）"
+  "carpet.rule.remoteOpenInventory_new.desc": "远程交互容器（移植自Carpet WuHu Addition）（注：如果安装Carpet Wuhu Addition此功能将无效，请开启Carpet Wuhu Addition的远程交互容器）",
+  "carpet.rule.accurateBlockPlacement.name": "准确方块放置支持",
+  "carpet.rule.accurateBlockPlacement.desc": "启用对tweakroo mod的tweakAccurateBlockPlacement选项的支持（移植自Carpet Extra）"
 }

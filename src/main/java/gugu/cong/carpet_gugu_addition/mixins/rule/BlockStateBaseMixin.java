@@ -2,7 +2,7 @@ package gugu.cong.carpet_gugu_addition.mixins.rule;
 
 import com.llamalad7.mixinextras.injector.ModifyReturnValue;
 import com.llamalad7.mixinextras.sugar.Local;
-import gugu.cong.carpet_gugu_addition.wheel.BlockHardnessModifiers;
+import gugu.cong.carpet_gugu_addition.utils.BlockHardnessModifiers;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.block.Block;

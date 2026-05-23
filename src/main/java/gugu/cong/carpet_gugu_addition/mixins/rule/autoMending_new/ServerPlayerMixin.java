@@ -7,7 +7,7 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
-import static gugu.cong.carpet_gugu_addition.wheel.AutoMending.mending;
+import static gugu.cong.carpet_gugu_addition.utils.AutoMending.mending;
 
 @Mixin(ServerPlayer.class)
 public class ServerPlayerMixin {

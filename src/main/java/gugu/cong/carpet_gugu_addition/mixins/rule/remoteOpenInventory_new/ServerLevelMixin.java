@@ -1,8 +1,8 @@
 package gugu.cong.carpet_gugu_addition.mixins.rule.remoteOpenInventory_new;
 
 import gugu.cong.carpet_gugu_addition.GUGUSettings;
-import gugu.cong.carpet_gugu_addition.wheel.OpenInventoryPacket;
-import gugu.cong.carpet_gugu_addition.wheel.TickList;
+import gugu.cong.carpet_gugu_addition.utils.OpenInventoryPacket;
+import gugu.cong.carpet_gugu_addition.utils.TickList;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.level.ChunkPos;
@@ -12,8 +12,8 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
-import static gugu.cong.carpet_gugu_addition.wheel.OpenInventoryPacket.playerlist;
-import static gugu.cong.carpet_gugu_addition.wheel.OpenInventoryPacket.tickMap;
+import static gugu.cong.carpet_gugu_addition.utils.OpenInventoryPacket.playerlist;
+import static gugu.cong.carpet_gugu_addition.utils.OpenInventoryPacket.tickMap;
 
 @Mixin(ServerLevel.class)
 public class ServerLevelMixin {
