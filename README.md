@@ -6,7 +6,10 @@
 
 [![License: LGPL-3.0](https://img.shields.io/github/license/DaCong114514qwq/Carpet-GUGU-Addition?color=blue)](https://choosealicense.com/licenses/lgpl-3.0/)
 [![GitHub Downloads](https://img.shields.io/github/downloads/DaCong114514qwq/Carpet-GUGU-Addition/total?color=161616&logo=github)](https://github.com/DaCong114514qwq/Carpet-GUGU-Addition/releases)
+<<<<<<< HEAD
 [![Modrinth Downloads](https://img.shields.io/modrinth/dt/carpet-gugu-addition?color=00AF5C&label=Modrinth%20downloads&logo=modrinth)](https://modrinth.com/mod/carpet-gugu-addition)
+=======
+>>>>>>> 65b2a913b008b2b07f15fdb58eb984063d8dfc9f
 [![Latest Tag](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Frepos%2FDaCong114514qwq%2FCarpet-GUGU-Addition%2Freleases%2Flatest&query=%24.tag_name&label=Latest%20Release&color=success&logo=github)](https://github.com/DaCong114514qwq/Carpet-GUGU-Addition/releases/latest)
 [![Minecraft](https://img.shields.io/badge/Minecraft-1.21.x--26.x-blue)](https://www.minecraft.net/)
 [![Carpet Mod](https://img.shields.io/badge/Carpet-Must--Required-orange?logo=modrinth)](https://modrinth.com/mod/carpet)
@@ -24,8 +27,13 @@
 
 | 游戏版本 | 状态 | 最后支持版本 |
 |----------|----------|--------------|
+<<<<<<< HEAD
 | **26.x** | 活跃 | v1.0.8  |
 | **1.21.x** | 活跃 | v1.0.8  |
+=======
+| **26.x** | 活跃 | v1.0.7  |
+| **1.21.x** | 活跃 | v1.0.7  |
+>>>>>>> 65b2a913b008b2b07f15fdb58eb984063d8dfc9f
 
 
 ## 规则
