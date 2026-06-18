@@ -56,9 +56,18 @@
 - 参考选项: `false`, `true`
 - 分类: `GUGU`, `SURVIVAL`
 
-## 远程交互容器 (remoteOpenInventory_new)
+## 无OP开放Carpet指令权限（服务器版） (openCarpetPermissionServer)
 
-远程交互容器（移植自Carpet WuHu Addition）（注：如果安装Carpet Wuhu Addition此功能将无效，请开启Carpet Wuhu Addition的远程交互容器）
+允许非OP玩家使用Carpet指令，可以在服务器使用
+
+- 类型: `boolean`
+- 默认值: `false`
+- 参考选项: `false`, `true`
+- 分类: `GUGU`, `SURVIVAL`
+
+## 准确方块放置支持 (accurateBlockPlacement)
+
+启用对tweakroo mod的tweakAccurateBlockPlacement选项的支持（移植自Carpet Extra）
 
 - 类型: `boolean`
 - 默认值: `false`

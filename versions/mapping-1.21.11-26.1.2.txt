@@ -1,2 +1,0 @@
-net.fabricmc.fabric.api.networking.v1.PayloadTypeRegistry playC2S() serverboundPlay()
-net.fabricmc.fabric.api.networking.v1.PayloadTypeRegistry playS2C() clientboundPlay()

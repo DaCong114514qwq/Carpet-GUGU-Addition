@@ -31,7 +31,7 @@
 ## 规则
 
 该模组为 Carpet 添加了多种新规则，包括：
-- **远程取物/远程交互容器**：允许玩家远程与容器交互
+- **准确方块放置支持**：启用对tweakroo mod的tweakAccurateBlockPlacement选项的支持
 - **自动经验修补**：自动使用经验修补附魔物品
 
 所有规则详情请查阅 [Rules.md](Rules.md) 文件。

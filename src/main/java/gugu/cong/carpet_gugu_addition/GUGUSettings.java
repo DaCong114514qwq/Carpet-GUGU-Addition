@@ -2,7 +2,6 @@ package gugu.cong.carpet_gugu_addition;
 
 import carpet.api.settings.Rule;
 
-import static carpet.api.settings.RuleCategory.FEATURE;
 import static carpet.api.settings.RuleCategory.SURVIVAL;
 
 public class GUGUSettings {
@@ -33,9 +32,6 @@ public class GUGUSettings {
 
     @Rule(categories = {GUGU, SURVIVAL})
     public static boolean openCarpetPermissionServer = false;
-
-    @Rule(categories = {GUGU, SURVIVAL})
-    public static boolean remoteOpenInventory_new = false;
     
     @Rule(categories = {GUGU})
     public static boolean accurateBlockPlacement = false;

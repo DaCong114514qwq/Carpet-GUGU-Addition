@@ -5,15 +5,12 @@ import carpet.CarpetServer;
 import carpet.api.settings.SettingsManager;
 import gugu.cong.carpet_gugu_addition.utils.ComponentTranslate;
 import net.minecraft.server.MinecraftServer;
-import org.apache.logging.log4j.Logger;
 
 import java.util.Map;
 
 public class GUGUServer implements CarpetExtension {
     public static long serverStartTimeMillis;
     public static final String MOD_ID = GUGUServerMod.MOD_ID;
-    public static final Logger LOGGER = (Logger) GUGUServerMod.LOGGER;
-    public static final String compact_name = GUGUServerMod.COMPACT_NAME;
     private static final GUGUServer INSTANCE = new GUGUServer();
     public static MinecraftServer minecraft_server;
     public static SettingsManager settingsManager;
