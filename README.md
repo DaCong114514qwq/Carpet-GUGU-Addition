@@ -4,7 +4,7 @@
 
 **新人的第一个开源Fabric Mod**
 
-[![License: LGPL-3.0](https://img.shields.io/github/license/DaCong114514qwq/Carpet-GUGU-Addition?color=blue)](https://choosealicense.com/licenses/lgpl-3.0/)
+[![License: MIT](https://img.shields.io/github/license/DaCong114514qwq/Carpet-GUGU-Addition?color=blue)](https://choosealicense.com/licenses/mit/)
 [![GitHub Downloads](https://img.shields.io/github/downloads/DaCong114514qwq/Carpet-GUGU-Addition/total?color=161616&logo=github)](https://github.com/DaCong114514qwq/Carpet-GUGU-Addition/releases)
 [![Modrinth](https://img.shields.io/modrinth/dt/carpet-gugu-addition?color=00AF5C&label=Modrinth%20downloads&logo=modrinth)](https://modrinth.com/mod/carpet-gugu-addition)
 [![Latest Tag](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Frepos%2FDaCong114514qwq%2FCarpet-GUGU-Addition%2Freleases%2Flatest&query=%24.tag_name&label=Latest%20Release&color=success&logo=github)](https://github.com/DaCong114514qwq/Carpet-GUGU-Addition/releases/latest)
@@ -39,4 +39,4 @@
 
 ## 许可协议
 
-本项目采用 **LGPL-3.0 (GNU Lesser General Public License v3.0)​** 许可证分发。该许可证允许在保留版权声明和许可证文本的前提下自由使用、修改和分发本软件。修改后的版本必须以相同许可证发布，但闭源项目可以链接使用本软件而无需开源自身代码。
+本项目采用 **MIT​** 许可证分发。该许可证允许在保留版权声明和许可证文本的前提下自由使用、修改和分发本软件。修改后的版本必须以相同许可证发布，但闭源项目可以链接使用本软件而无需开源自身代码。

@@ -4,7 +4,7 @@
 
 **A Novice's First Open-Source Fabric Mod**
 
-[![License: LGPL-3.0](https://img.shields.io/github/license/DaCong114514qwq/Carpet-GUGU-Addition?color=blue)](https://choosealicense.com/licenses/lgpl-3.0/)
+[![License: MIT](https://img.shields.io/github/license/DaCong114514qwq/Carpet-GUGU-Addition?color=blue)](https://choosealicense.com/licenses/mit/)
 [![GitHub Downloads](https://img.shields.io/github/downloads/DaCong114514qwq/Carpet-GUGU-Addition/total?color=161616&logo=github)](https://github.com/DaCong114514qwq/Carpet-GUGU-Addition/releases)
 [![Modrinth](https://img.shields.io/modrinth/dt/carpet-gugu-addition?color=00AF5C&label=Modrinth%20downloads&logo=modrinth)](https://modrinth.com/mod/carpet-gugu-addition)
 [![Latest Tag](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Frepos%2FDaCong114514qwq%2FCarpet-GUGU-Addition%2Freleases%2Flatest&query=%24.tag_name&label=Latest%20Release&color=success&logo=github)](https://github.com/DaCong114514qwq/Carpet-GUGU-Addition/releases/latest)
@@ -40,6 +40,6 @@ For detailed information on all available rules, please refer to the [Rules.md](
 
 ## License
 
-This project is distributed under the **LGPL-3.0 (GNU Lesser General Public License v3.0)**。
+This project is distributed under the **MIT**。
 
 This license grants the freedom to use, modify, 和 distribute the software, provided that copyright notices and the license text are preserved. Modified versions must be released under the same license. However, closed-source projects may link to and use this software without being required to open-source their own code.
