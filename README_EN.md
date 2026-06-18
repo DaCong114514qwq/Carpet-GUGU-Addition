@@ -42,4 +42,4 @@ For detailed information on all available rules, please refer to the [Rules.md](
 
 This project is distributed under the **MIT**。
 
-This license grants the freedom to use, modify, 和 distribute the software, provided that copyright notices and the license text are preserved. Modified versions must be released under the same license. However, closed-source projects may link to and use this software without being required to open-source their own code.
+This project is distributed under the **MIT License**. This license permits free use, modification, distribution, sublicensing, and commercial use, provided that the copyright notice and license text are preserved. Unlike LGPL, modified versions are **not** required to be released under the same license, and there is no requirement to open-source your own code, even for closed-source projects.
