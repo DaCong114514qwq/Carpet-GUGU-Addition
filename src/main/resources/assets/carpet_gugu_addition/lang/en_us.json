@@ -15,8 +15,6 @@
   "carpet.rule.autoMending_new.desc": "Mending, I love you.(Carpet WuHu Addition)",
   "carpet.rule.openCarpetPermissionServer.name": "open Carpet Permission Server",
   "carpet.rule.openCarpetPermissionServer.desc": "Server Carpet Command OP? No!",
-  "carpet.rule.remoteOpenInventory_new.name": "remoteOpenInventory",
-  "carpet.rule.remoteOpenInventory_new.desc": "remoteOpenInventory(Carpet WuHu Addition).",
   "carpet.rule.accurateBlockPlacement.name": "tweakAccurateBlockPlacement",
   "carpet.rule.accurateBlockPlacement.desc": "!?Carpet Extra?!"
 }
