@@ -3,6 +3,7 @@
   "minVersion": "0.8",
   "package": "gugu.cong.carpet_gugu_addition.mixins",
   "compatibilityLevel": "{{COMPATIBILITY_LEVEL}}",
+  "plugin": "gugu.cong.carpet_gugu_addition.mixins.GuGuMixinConfigPlugin",
   "mixins": [
     "rule.reIntroduceSkeletonLooting.AbstractSkeletonMixin",
     "rule.BlockStateBaseMixin",

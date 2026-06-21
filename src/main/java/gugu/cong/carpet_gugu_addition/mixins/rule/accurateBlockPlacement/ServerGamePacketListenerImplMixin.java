@@ -1,5 +1,7 @@
 package gugu.cong.carpet_gugu_addition.mixins.rule.accurateBlockPlacement;
 
+import me.fallenbreath.conditionalmixin.api.annotation.Condition;
+import me.fallenbreath.conditionalmixin.api.annotation.Restriction;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Redirect;
@@ -7,6 +9,9 @@ import net.minecraft.server.network.ServerGamePacketListenerImpl;
 import gugu.cong.carpet_gugu_addition.GUGUSettings;
 import net.minecraft.world.phys.Vec3;
 
+@Restriction(
+        conflict = @Condition("carpet-extra")
+)
 @Mixin(ServerGamePacketListenerImpl.class)
 public abstract class ServerGamePacketListenerImplMixin
 {

@@ -2,6 +2,8 @@ package gugu.cong.carpet_gugu_addition.mixins.rule.accurateBlockPlacement;
 
 import gugu.cong.carpet_gugu_addition.GUGUSettings;
 import gugu.cong.carpet_gugu_addition.utils.BlockPlacer;
+import me.fallenbreath.conditionalmixin.api.annotation.Condition;
+import me.fallenbreath.conditionalmixin.api.annotation.Restriction;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.world.level.block.Block;
@@ -9,6 +11,10 @@ import net.minecraft.world.level.block.state.BlockState;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Redirect;
+
+@Restriction(
+        conflict = @Condition("carpet-extra")
+)
 
 @Mixin(BlockItem.class)
 public class BlockItemMixin
