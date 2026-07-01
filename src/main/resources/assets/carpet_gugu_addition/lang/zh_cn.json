@@ -18,5 +18,7 @@
   "carpet.rule.remoteOpenInventory_new.name": "远程交互容器",
   "carpet.rule.remoteOpenInventory_new.desc": "远程交互容器（移植自Carpet WuHu Addition）（注：如果安装Carpet Wuhu Addition此功能将无效，请开启Carpet Wuhu Addition的远程交互容器）",
   "carpet.rule.accurateBlockPlacement.name": "准确方块放置支持",
-  "carpet.rule.accurateBlockPlacement.desc": "启用对tweakroo mod的tweakAccurateBlockPlacement选项的支持（移植自Carpet Extra）"
+  "carpet.rule.accurateBlockPlacement.desc": "启用对tweakroo mod的tweakAccurateBlockPlacement选项的支持（移植自Carpet Extra）",
+  "carpet.rule.softBee.name": "安全蜜蜂",
+  "carpet.rule.softBee.desc": "蜜蜂没有攻击行为"
 }

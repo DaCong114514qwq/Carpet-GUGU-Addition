@@ -16,5 +16,7 @@
   "carpet.rule.openCarpetPermissionServer.name": "open Carpet Permission Server",
   "carpet.rule.openCarpetPermissionServer.desc": "Server Carpet Command OP? No!",
   "carpet.rule.accurateBlockPlacement.name": "tweakAccurateBlockPlacement",
-  "carpet.rule.accurateBlockPlacement.desc": "!?Carpet Extra?!"
+  "carpet.rule.accurateBlockPlacement.desc": "!?Carpet Extra?!",
+  "carpet.rule.softBee.name": "Soft Bee",
+  "carpet.rule.softBee.desc": "Soft Bee"
 }

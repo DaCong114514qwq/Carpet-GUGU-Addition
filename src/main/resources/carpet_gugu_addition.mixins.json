@@ -11,7 +11,8 @@
     "rule.autoMending_new.ServerPlayerMixin",
     "rule.openCarpetPermissionServer.SettingsManagerMixin",
     "rule.accurateBlockPlacement.BlockItemMixin",
-    "rule.accurateBlockPlacement.ServerGamePacketListenerImplMixin"
+    "rule.accurateBlockPlacement.ServerGamePacketListenerImplMixin",
+    "rule.softBee.BeeMixin"
   ],
   "client": [
   ],

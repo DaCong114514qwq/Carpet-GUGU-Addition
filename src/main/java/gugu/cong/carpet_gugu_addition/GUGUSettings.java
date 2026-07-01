@@ -35,4 +35,7 @@ public class GUGUSettings {
     
     @Rule(categories = {GUGU})
     public static boolean accurateBlockPlacement = false;
+
+    @Rule(categories = {GUGU, SURVIVAL})
+    public static boolean softBee = false;
 }
