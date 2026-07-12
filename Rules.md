@@ -67,7 +67,25 @@
 
 ## 准确方块放置支持 (accurateBlockPlacement)
 
-启用对tweakroo mod的tweakAccurateBlockPlacement选项的支持（移植自Carpet Extra）
+启用对tweakroo mod的tweakAccurateBlockPlacement选项的支持（移植自Carpet Extra）（在安装Carpet Extra时该规则不生效）
+
+- 类型: `boolean`
+- 默认值: `false`
+- 参考选项: `false`, `true`
+- 分类: `GUGU`, `SURVIVAL`
+
+## 安全蜜蜂 (safeBee)
+
+蜜蜂不会攻击玩家
+
+- 类型: `boolean`
+- 默认值: `false`
+- 参考选项: `false`, `true`
+- 分类: `GUGU`, `SURVIVAL`
+
+## 亡灵生物不怕阳光 (nbUndeadMob)
+
+亡灵生物不会在阳光下燃烧
 
 - 类型: `boolean`
 - 默认值: `false`

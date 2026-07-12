@@ -12,7 +12,8 @@
     "rule.openCarpetPermissionServer.SettingsManagerMixin",
     "rule.accurateBlockPlacement.BlockItemMixin",
     "rule.accurateBlockPlacement.ServerGamePacketListenerImplMixin",
-    "rule.softBee.BeeMixin"
+    "rule.safeBee.BeeMixin",
+    "rule.nbUndeadMob.MobMixin"
   ],
   "client": [
   ],

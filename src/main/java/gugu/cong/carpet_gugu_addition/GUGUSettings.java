@@ -37,5 +37,8 @@ public class GUGUSettings {
     public static boolean accurateBlockPlacement = false;
 
     @Rule(categories = {GUGU, SURVIVAL})
-    public static boolean softBee = false;
+    public static boolean safeBee = false;
+
+    @Rule(categories = {GUGU, SURVIVAL})
+    public static boolean nbUndeadMob = false;
 }

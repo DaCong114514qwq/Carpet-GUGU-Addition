@@ -17,6 +17,8 @@
   "carpet.rule.openCarpetPermissionServer.desc": "Server Carpet Command OP? No!",
   "carpet.rule.accurateBlockPlacement.name": "tweakAccurateBlockPlacement",
   "carpet.rule.accurateBlockPlacement.desc": "!?Carpet Extra?!",
-  "carpet.rule.softBee.name": "Soft Bee",
-  "carpet.rule.softBee.desc": "Soft Bee"
+  "carpet.rule.safeBee.name": "Safe Bee",
+  "carpet.rule.safeBee.desc": "Safe Bee",
+  "carpet.rule.nbUndeadMob.name": "Nb Zombie",
+  "carpet.rule.nbUndeadMob.desc": "Nb Zombie"
 }
