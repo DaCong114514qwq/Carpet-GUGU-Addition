@@ -24,8 +24,8 @@
 
 | Minecraft Version | 状态 | Latest Supported Version |
 |-------------------|--------|--------------------------|
-| **26.x** | Active | v1.1.0 |
-| **1.21.x** | Active | v1.1.0 |
+| **26.x** | Active | v1.1.2 |
+| **1.21.x** | Active | v1.1.2 |
 
 
 ## Features (Carpet Rules)

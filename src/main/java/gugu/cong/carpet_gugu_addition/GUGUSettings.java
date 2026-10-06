@@ -2,6 +2,7 @@ package gugu.cong.carpet_gugu_addition;
 
 import carpet.api.settings.Rule;
 
+import static carpet.api.settings.RuleCategory.CREATIVE;
 import static carpet.api.settings.RuleCategory.SURVIVAL;
 
 public class GUGUSettings {
